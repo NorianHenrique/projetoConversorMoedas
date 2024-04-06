@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de Moedas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="conversor">
+               <h2>Conversor de Moedas</h2>
+               <input type="text" id="valor" placeholder="Valor para converter"/>
+               <select id="moedaOriginal">
+                  <option value="USD">Dólar Americano</option>
+                  <option value="EUR">Euro</option>
+                  <option value="BRL">Real Brasileiro</option>
+                  <option value="CNY">Yuan chinês</option>
+                  <option value="JPY">Iene japonês</option>
+                  <option value="CHF">Franco suíço</option>
+               </select>
+               <select id="moedaParaConverter">
+                  <option value="BRL">Real Brasileiro</option>
+                  <option value="USD">Dólar Americano</option>
+                  <option value="EUR">Euro</option>
+                  <option value="CNY">Yuan chinês</option>
+                  <option value="JPY">Iene japonês</option>
+                  <option value="CHF">Franco suíço</option>
+               </select>
+               <button id="converter">Converter</button>
+               <div class="resultado" id="resultado">
+                    <!-- Aqui aparecerá o valor convertido -->
+               </div><!--resultado-->
+        </div><!--conversor-->
+    </body>
+    <script src="script.js"></script>
+</html>
